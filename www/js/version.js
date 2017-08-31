@@ -48,7 +48,8 @@ function initiateUpdateIfNecessary(downloadedVersion) {
 	}
 
 	if(currentVersion >= downloadedVersion) {
-		displayVersion('.received', "You already have the latest version. Version: ", currentVersion);
+		displayVersion('.received', "You already have the latest version. Installing the app anyways. Version: ", currentVersion);
+        update();
 		return;
 	}
 

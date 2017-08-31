@@ -27,7 +27,7 @@ function displayStatus(id, msg, color) {
     recievedElement.innerHTML = msg;    
 }
 
-var apkURL = 'https://www.dropbox.com/s/1qzzjzzpdrjnaa0/android-debug.apk?dl=1';
+var apkURL = 'https://build.phonegap.com/apps/2781025/install/jWfvdXReXxaf-6yFnAZm';
 var apkName = "test.apk";
 var versionURL = 'https://www.dropbox.com/s/pyegqji286xl1bl/current-version.txt?dl=1';
 var versionFileName = 'current-version.txt';

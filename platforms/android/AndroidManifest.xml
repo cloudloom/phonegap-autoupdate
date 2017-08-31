@@ -15,7 +15,7 @@
             </intent-filter>
         </receiver>
     </application>
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="25" />
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />

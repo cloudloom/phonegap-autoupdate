@@ -5,8 +5,7 @@ rm -rf AutoUpdateProject
 mkdir AutoUpdateProject
 
 cp config.xml AutoUpdateProject/
-cp www/index.html AutoUpdateProject/
-cp www/*.js AutoUpdateProject/
+cp -rf www/* AutoUpdateProject/
 
 zip -r AutoUpdateProject.zip AutoUpdateProject
 rm -rf AutoUpdateProject
